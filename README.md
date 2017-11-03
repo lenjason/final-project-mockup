@@ -28,6 +28,7 @@ Page Deisgn:<br>
 &nbsp;&nbsp;Administrators’ Edit Recipe:&nbsp;&nbsp;Edit Recipe with Delete Button)<br>
 &nbsp;&nbsp;About:&nbsp;&nbsp;1 Paragraph about the Project.<br>
 <br><br>
-<img src="/apps/public/images/launch.png">
 <img src="app/public/images/AddProfile.png">
+<img src="app/public/images/AddRecipe.png">
+<img src="/apps/public/images/launch.png">
 <img src="app/public/images/AddRecipe.png">
