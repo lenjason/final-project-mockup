@@ -27,4 +27,9 @@ Page Deisgn:
 	Administrators Homepage:  Search Recipe, Add Recipe, Edit Recipe,
 	Administrators’ Edit Recipe:  Edit Recipe with Delete Button)
 	About:	1 Paragraph about the Project.
-	
+
+<div class="ui small rounded images">
+  <img class="ui image" src="/apps/public/images/launch.png">
+  <img class="ui image" src="/apps/public/images/AddProfile.png">
+  <img class="ui image" src="/apps/public/images/AddRecipe.png">
+</div>
