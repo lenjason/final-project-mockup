@@ -29,7 +29,7 @@ Page Deisgn:
 	About:	1 Paragraph about the Project.
 
 <div class="ui small rounded images">
-  <img class="ui image" src="/apps/public/images/launch.png">
-  <img class="ui image" src="/apps/public/images/AddProfile.png">
-  <img class="ui image" src="/apps/public/images/AddRecipe.png">
+  <img class="ui image" src="apps/public/images/launch.png">
+  <img class="ui image" src="apps/public/images/AddProfile.png">
+  <img class="ui image" src="apps/public/images/AddRecipe.png">
 </div>
