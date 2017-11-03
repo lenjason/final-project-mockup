@@ -16,7 +16,7 @@ Pages Hierarchy:
 &nbsp;&nbsp;&nbsp;&nbsp;Add Recipe<br>
 &nbsp;&nbsp;&nbsp;&nbsp;About culinary<br>
 <br><br>
-Page Deisgn:
+Page Deisgn:<br>
 &nbsp;&nbsp;Public Landing:&nbsp;&nbsp;Welcome/Introduction, About, Create New User, Existing User Login<br>
 &nbsp;&nbsp;User Homepage:&nbsp;&nbsp;Welcome, Edit User Profile, Add Recipe, Search Recipe, Edit Recipe<br>
 &nbsp;&nbsp;User Profile Page:&nbsp;&nbsp;Fields:  Student ID, User Name, Dietary Preference Check Boxes<br>
@@ -29,5 +29,5 @@ Page Deisgn:
 &nbsp;&nbsp;About:&nbsp;&nbsp;1 Paragraph about the Project.<br>
 <br><br>
 <img src="./apps/public/images/launch.png">
-<img src="final-project-mockup/app/public/images/AddProfile.png">
-<img src="final-project-mockup/app/public/images/AddRecipe.png">
+<img src="/app/public/images/AddProfile.png">
+<img src="app/public/images/AddRecipe.png">
