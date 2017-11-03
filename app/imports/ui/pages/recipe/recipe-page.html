@@ -1,0 +1,41 @@
+<template name="Recipe_Page">
+
+  {{#if Template.subscriptionsReady}}
+
+    <div class="ui text container segment">
+      <div class="ui dividing header">
+        Profile
+      </div>
+      <form class="ui equal width form profile-data-form {{ successClass }} {{ errorClass }}">
+
+        <div class="fields">
+          {{> Text_Form_Control label="UH Login" placeholder="XXXX-XXXX" value=profile.firstName errorMessage=(fieldError "uhid")}}
+          {{> Text_Form_Control label="Name" placeholder="Philip Johnson" value=profile.lastName errorMessage=(fieldError "name")}}
+
+        </div>
+
+        <div class="field">
+          {{> Checkbox_Field label="Vegatarian" options=interests errorMessage=(fieldError "interests") multiple=true }}
+          {{> Checkbox_Field label="Vegan" options=interests errorMessage=(fieldError "interests") multiple=true }}
+          {{> Checkbox_Field label="Lactose Intolorent" options=interests errorMessage=(fieldError "interests") multiple=true }}
+          {{> Checkbox_Field label="Diabetic" options=interests errorMessage=(fieldError "interests") multiple=true }}
+          {{> Checkbox_Field label="High Colestorol" options=interests errorMessage=(fieldError "interests") multiple=true }}
+          {{> Checkbox_Field label="Low Sodium" options=interests errorMessage=(fieldError "interests") multiple=true }}
+          {{> Checkbox_Field label="Gluten Free" options=interests errorMessage=(fieldError "interests") multiple=true }}
+        </div>
+
+        {{> TextArea_Form_Control label="Favorites" value=profile.bio placeholder="List Favorite Recipes Here" errorMessage=(fieldError "bio")}}
+
+
+        <button class="ui primary button" type="submit">Submit</button>
+        {{#if displaySuccessMessage}}
+          <div class="ui success message">
+            <p>Profile data successfully updated.</p>
+          </div>
+        {{/if}}
+      </form>
+    </div>
+
+  {{/if}}
+
+</template>

@@ -2,14 +2,22 @@
   {{#if Template.subscriptionsReady}}
     <div style="margin-top: 10px" class="ui container">
 
-      <form class="ui equal width form filter-data-form">
-        <div class="field">
-          {{> Select_Form_Control label="Interests" options=interests multiple=true }}
-        </div>
-        <button class="ui teal button" type="submit">Filter</button>
-      </form>
+      {{> TextArea_Form_Control label="Recipe_Name" value=profile.bio placeholder="Recipe Name" errorMessage=(fieldError "bio")}}
+<hr>
+      <div class="field">
+        {{> Checkbox_Field label="Vegatarian" options=interests errorMessage=(fieldError "interests") multiple=true }}
+        {{> Checkbox_Field label="Vegan" options=interests errorMessage=(fieldError "interests") multiple=true }}
+        {{> Checkbox_Field label="Lactose Intolorent" options=interests errorMessage=(fieldError "interests") multiple=true }}
+        {{> Checkbox_Field label="Diabetic" options=interests errorMessage=(fieldError "interests") multiple=true }}
+        {{> Checkbox_Field label="High Colestorol" options=interests errorMessage=(fieldError "interests") multiple=true }}
+        {{> Checkbox_Field label="Low Sodium" options=interests errorMessage=(fieldError "interests") multiple=true }}
+        {{> Checkbox_Field label="Gluten Free" options=interests errorMessage=(fieldError "interests") multiple=true }}
+      </div>
+<hr>
+      {{> TextArea_Form_Control label="Ingredients" value=profile.bio placeholder="Recipes Ingredients Here" errorMessage=(fieldError "bio")}}
 
-      {{> Filter_Page_Directory profiles=profiles }}
+      {{> TextArea_Form_Control label="Steps" value=profile.bio placeholder="Recipes Steps Here" errorMessage=(fieldError "bio")}}
+
 
     </div>
   {{/if}}
