@@ -29,5 +29,5 @@ Page Deisgn:
 	About:	1 Paragraph about the Project.
 
 <img src="./apps/public/images/launch.png">
-<img src="./apps/public/images/AddProfile.png">
-<img src="./apps/public/images/AddRecipe.png">
+<img src="final-project-mockup/app/public/images/AddProfile.png">
+<img src="final-project-mockup/app/public/images/AddRecipe.png">
