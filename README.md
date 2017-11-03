@@ -17,16 +17,16 @@ Pages Hierarchy:
 &nbsp;&nbsp;&nbsp;&nbsp;About culinary<br>
 <br><br>
 Page Deisgn:
-	Public Landing:	Welcome/Introduction, About, Create New User, Existing User Login
-	User Homepage:  Welcome, Edit User Profile, Add Recipe, Search Recipe, Edit Recipe
-	User Profile Page: Fields:  Student ID, User Name, Dietary Preference Check Boxes
-	Search Recipe: Criteria (Dietary Preference), Cooking Time, Ingredients, Cooking Methods
-	Display Recipe: Recipe Name, Ingredients, Cooking Time, Procedure
-	Add Recipe: (Display Recipe w/ Submit Button which add login)
-	Edit Recipe: (Login Validation, Display Recipe w/ Edit Button)
-	Administrators Homepage:  Search Recipe, Add Recipe, Edit Recipe,
-	Administrators’ Edit Recipe:  Edit Recipe with Delete Button)
-	About:	1 Paragraph about the Project.
+&nbsp;&nbsp;Public Landing:&nbsp;&nbsp;Welcome/Introduction, About, Create New User, Existing User Login<br>
+&nbsp;&nbsp;User Homepage:&nbsp;&nbsp;Welcome, Edit User Profile, Add Recipe, Search Recipe, Edit Recipe<br>
+&nbsp;&nbsp;User Profile Page:&nbsp;&nbsp;Fields:  Student ID, User Name, Dietary Preference Check Boxes<br>
+&nbsp;&nbsp;Search Recipe:&nbsp;&nbsp;Criteria (Dietary Preference), Cooking Time, Ingredients, Cooking Methods<br>
+&nbsp;&nbsp;Display Recipe:&nbsp;&nbsp;Recipe Name, Ingredients, Cooking Time, Procedure<br>
+&nbsp;&nbsp;Add Recipe:&nbsp;&nbsp;(Display Recipe w/ Submit Button which add login)<br>
+&nbsp;&nbsp;Edit Recipe:&nbsp;&nbsp;(Login Validation, Display Recipe w/ Edit Button)<br>
+&nbsp;&nbsp;Administrators Homepage:&nbsp;&nbsp;Search Recipe, Add Recipe, Edit Recipe,<br>
+&nbsp;&nbsp;Administrators’ Edit Recipe:&nbsp;&nbsp;Edit Recipe with Delete Button)<br>
+&nbsp;&nbsp;About:&nbsp;&nbsp;1 Paragraph about the Project.<br>
 <br><br>
 <img src="./apps/public/images/launch.png">
 <img src="final-project-mockup/app/public/images/AddProfile.png">
