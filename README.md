@@ -30,5 +30,4 @@ Page Deisgn:<br>
 <br><br>
 <img src="app/public/images/AddProfile.png">
 <img src="app/public/images/AddRecipe.png">
-<img src="/apps/public/images/launch.png">
-<img src="app/public/images/AddRecipe.png">
+<img src="app/public/images/launch.png">
