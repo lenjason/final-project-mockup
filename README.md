@@ -28,3 +28,9 @@ Page Deisgn:
 	Administrators’ Edit Recipe:  Edit Recipe with Delete Button)
 	About:	1 Paragraph about the Project.
 	
+<div class="ui small rounded images">
+  <img class="ui image" src="../images/MSImage2.jpg">
+  <img class="ui image" src="../images/MSImage3.jpg">
+  <img class="ui image" src="../images/MSImage4.jpg">
+  <img class="ui image" src="../images/MSImage5.jpg">
+</div>
